@@ -1,0 +1,43 @@
+图案：
+
+橙子、柠檬、葡萄		10倍(3个图案)
+双星、双七、西瓜		30倍(3个图案)
+小橙子、小柠檬、小葡萄	1倍(3个图案)
+小双星、小双七、小西瓜	3倍(3个图案)
+苹果			5倍(4个图案)
+BAB*50			50倍(1个图案)
+BAB*100			100倍(1个图案)
+BAB*25			25倍(1个图案)
+彩蛋			(2个图案)
+
+			合计:21个图案
+
+
+
+押注按钮：
+
+BAB      双星        双7              西瓜                 葡萄           柠檬            橙子            苹果        开始
+(BAB)   (Star)    (Seven)     (Watermelon)      (Grape)     (Lemon)     (Orange)     (Apple)    (Begin)
+
+pbAll.Add(pbApple1);        //0代表苹果1
+            pbAll.Add(pbOranges);       //1代表小橘子
+            pbAll.Add(pbBAB25);         //2代表BAB25
+            pbAll.Add(pbBAB100);        //3代表BAB100
+            pbAll.Add(pbBAB50);         //4代表BAB50
+            pbAll.Add(pbGrape);         //5代表葡萄
+            pbAll.Add(pbApple2);        //6代表苹果2
+            pbAll.Add(pbWatermelons);   //7代表小西瓜
+            pbAll.Add(pbWatermelon);    //8代表大西瓜
+            pbAll.Add(pbBuff2);         //9代表彩蛋2
+            pbAll.Add(pbLemon);         //10代表柠檬
+            pbAll.Add(pbApple3);        //11代表苹果3
+            pbAll.Add(pbGrapes);        //12代表小葡萄
+            pbAll.Add(pbGame);          //13代表惩罚
+            pbAll.Add(pbSeven);         //14代表双七
+            pbAll.Add(pbSevens);        //15代表小双七
+            pbAll.Add(pbOrange);        //16代表橘子
+            pbAll.Add(pbApple4);        //17代表苹果4
+            pbAll.Add(pbStars);         //18代表小双星
+            pbAll.Add(pbStar);          //19代表双星
+            pbAll.Add(pbBuff1);         //20代表彩蛋1
+            pbAll.Add(pbLemons);        //21代表小柠檬
